@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="devisrael" />
+    <title>Github&mdash;Profile Viewer</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+
+<body>
+    <!-- ///////////////////////////// -->
+    <div class="settings">
+        <svg class="settings__icon">
+            <use xlink:href="vendor/icon/sprit.svg#icon-cog"></use>
+        </svg>
+        <div class="settings__dropdown">
+            <p>colors settings</p>
+            <div class="colors">
+                <button class="primary"></button>
+                <button class="secondary"></button>
+            </div>
+        </div>
+    </div>
+    <!-- ///////////////////////////// -->
+    <main class="main">
+        <input class="form__input" type="text" required autofocus placeholder="Github Username..." />
+        <!-- //////////////////////////////// -->
+        <main class="info__container">
+            <header>
+                <h1 class="title">
+                    Github Profile Viewer
+                    <span class="author">
+                        by
+                        <b><a href="https://github.com/devisrael" target="_blank">devisrael</a>
+                        </b>
+                    </span>
+                </h1>
+
+        </main>
+    </main>
+    <!-- //////////////////////////////// -->
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body></html>
